@@ -3,6 +3,6 @@
     <include file="$(find map)/launch/gmapping.launch"/>
 
     <!-- 启动rviz -->
-    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find map)/rviz/cafe_clean.rviz"/>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find map)/rviz/box.rviz"/>
 
 </launch>

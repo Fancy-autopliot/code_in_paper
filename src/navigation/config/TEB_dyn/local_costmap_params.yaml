@@ -10,9 +10,9 @@ local_costmap:
   publish_frequency: 5.001 # actually exactly 5.0Hz, see https://github.com/ros-planning/navigation/issues/383
   static_map: false
   rolling_window: true
-  width: 5
-  height: 5
-  resolution: 0.1
+  width: 10
+  height: 10
+  resolution: 0.1 #0.05
   transform_tolerance: 0.5
 
   plugins:

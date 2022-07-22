@@ -43,13 +43,21 @@ static_layer:
   enabled:              true
   map_topic:            "map"
 
-#以下为初配置，与TEB文件夹下相同
+
+
+
+
+#robot_radius: 0.2
+
+
+# footprint: [[0.171, -0.128], [0.171, 0.128],[-0.171, 0.128], [-0.171, -0.128]]
+
 # obstacle_layer:
 #   enabled: true
 #   combination_method: 1
 #   track_unknown_space: true
 #   obstacle_range: 3.0
-#   raytrace_range: 3.0
+#   raytrace_range: 3.5
 #   observation_sources: laser_scan_sensor
 #   laser_scan_sensor: {
 #     sensor_frame: laser_frame,
@@ -62,10 +70,9 @@ static_layer:
  
 # inflation_layer:
 #   enabled: true
-#   cost_scaling_factor: 5.0
-#   inflation_radius: 0.11
+#   cost_scaling_factor: 10.0
+#   inflation_radius: 0.5
 # #0.15
  
 # static_layer:
 #   enabled: true
-

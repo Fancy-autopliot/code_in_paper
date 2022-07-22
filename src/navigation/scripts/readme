@@ -1,0 +1,4 @@
+calculate_distance_traveled.py 用于计算机器人实际走过的路程
+calculate_path_distance.py 不会用
+move.py  用于发送目标点给机器人
+back_start  返回起点
