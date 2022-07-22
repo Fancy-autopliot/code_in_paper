@@ -1,0 +1,12 @@
+amcl.launch----定位文件
+
+dwa_base----DWA算法配置启动文件
+dwa_demo----DWA算法示例文件
+
+teb_base----TEB算法配置启动文件
+teb_base_optimal----采用艾卡小队中的优化TEB算法的配置启动文件
+
+teb_demo_in_icra----TEB算法在ICRA中的应用
+teb_demo_in_real_world----TEB算法在本人搭建的真实环境中的应用
+
+opt_teb_demo_in_real_world----优化TEB算法应用真实环境
